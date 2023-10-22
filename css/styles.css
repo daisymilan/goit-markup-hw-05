@@ -390,7 +390,7 @@ h3 {
 }
 
 .section-title {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--NAVY-BLUE);
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
@@ -402,12 +402,19 @@ h3 {
     padding-top: 120px;
 }
 
+ul.customer-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .customer-list {
     display: inline-flex;
     align-items: flex-start;
     gap: 24px;
     padding-top: 72px;
-    padding-left: 156px;
+    
 }
 
 .list-icon {
@@ -482,6 +489,11 @@ footer .logo {
     line-height: 1.5;
     letter-spacing: 0.32px;
     padding-bottom: 16px;
+}
+
+.footer-social-container {
+    display: flex;
+    gap: 16px;
 }
 
 .footer-socials-icon {
